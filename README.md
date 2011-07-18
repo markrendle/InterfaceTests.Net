@@ -15,3 +15,8 @@ standard tests for things like _IList<T>_, _ISet<T>_ and so on, or add more test
 to existing files, and send me pull requests.
 
 My starting test is for NUnit; if you prefer a different test framework, please suffix the filename with, e.g., "\_XUnit" or "\_MSTest".
+
+I originally tried to implement this first test as a base abstract class, but
+the tooling support for running tests contained in a base class was so poor that
+I switched to having a single-class implementation. Hopefully the tooling will
+improve. :)
